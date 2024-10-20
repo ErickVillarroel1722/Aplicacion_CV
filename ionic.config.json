@@ -1,0 +1,7 @@
+{
+  "name": "mi-cv",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
