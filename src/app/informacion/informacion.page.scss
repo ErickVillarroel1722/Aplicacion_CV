@@ -1,0 +1,30 @@
+ion-card {
+    margin: 20px;
+    background-color: #1e272e; /* Fondo oscuro para la tarjeta */
+    color: white; /* Texto blanco */
+    border-radius: 10px;
+  }
+  
+  ion-card-title {
+    font-size: 22px;
+    color: #00ccff; /* Azul brillante para el título */
+  }
+  
+  ion-card-content p {
+    font-size: 18px;
+    color: #d1d1d1; /* Gris claro para el texto */
+    margin-bottom: 10px;
+  }
+  
+  ion-header {
+    --background: #007bff; /* Fondo azul para la barra de navegación */
+  }
+  
+  ion-toolbar {
+    --color: white; /* Texto en blanco */
+  }
+  
+  ion-content {
+    --background: #131414; /* Fondo claro */
+  }
+  

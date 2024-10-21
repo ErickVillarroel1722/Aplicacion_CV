@@ -1,0 +1,40 @@
+/* Ajustes generales de ion-card para mantener consistencia */
+ion-card {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo específico para la sección de educación */
+.educacion-card {
+  background-color: #30373b; /* Fondo gris oscuro */
+  color: white; /* Color del texto blanco para buen contraste */
+}
+
+/* Usar flexbox para alinear la imagen y el texto en el encabezado */
+.educacion-header {
+  display: flex;
+  align-items: center;
+}
+
+/* Ajustes de la imagen (logo de la institución) */
+.institucion-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%; /* Para que la imagen sea circular */
+  margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+/* Título de la tarjeta (educación) */
+ion-card-title {
+  font-size: 1.2em;
+  color: #1e88e5; /* Azul para destacar el título */
+  margin: 0; /* Eliminar margen adicional */
+}
+
+/* Estilo para el contenido del ion-card */
+ion-card-content p {
+  font-size: 0.95em;
+  color: #bbbbbb; /* Color de texto más claro para el contenido */
+}
